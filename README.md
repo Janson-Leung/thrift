@@ -3,6 +3,11 @@ Apache Thrift
 
 Last Modified: 2014-03-16
 
+Supplement
+============
+  - stream函数存在超时设置的陷阱和Bug，一旦没处理好会导致Server端长时间阻塞
+  - Replace TSocket.php with stream as TSocket.php with socket
+
 License
 =======
 
